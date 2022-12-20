@@ -1,0 +1,30 @@
+.testimonial-section-bottom {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 750px;
+  border-radius: 2rem;
+  flex-direction: column;
+  text-align: center;
+}
+.testimonial-section-bottom {
+  margin: 2rem auto;
+}
+.testimonial-section-bottom p {
+  font-weight: 700;
+  color: #515151;
+  max-width: 500px;
+  font-size: 1.1rem;
+  margin: 2rem 0rem;
+}
+.testimonials-stars-container svg {
+  margin: 0rem 0.25rem;
+  font-size: 1.5rem;
+  color: #fe9e0d;
+}
+.testimonial-section-bottom h2 {
+  margin-top: 1.5rem;
+}

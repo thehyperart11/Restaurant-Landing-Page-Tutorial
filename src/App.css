@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reem Kufi", sans-serif !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.App {
+  min-height: 100vh;
+  width: 85vw;
+  max-width: 1900px;
+  margin: 0rem auto;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+@media (max-width: 800px) {
+  .App {
+    max-width: 95vw;
+  }
+}
