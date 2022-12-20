@@ -416,16 +416,13 @@ nav {
   .footer-section-columns {
     margin: 1rem 0rem;
   }
+  .App {
+    max-width: 95vw;
+  }
 }
 @media (max-width: 600px) {
   .home-bannerImage-container,
   .about-background-image-container {
     display: none;
-  }
-}
-
-@media (max-width: 800px) {
-  .App {
-    max-width: 95vw;
   }
 }
