@@ -2,33 +2,37 @@ import React from "react";
 import PickMeals from "../Assets/pick-meals-image.png";
 import ChooseMeals from "../Assets/choose-image.png";
 import DeliveryMeals from "../Assets/delivery-image.png";
+import AboutBackground from "../Assets/about-background.png";
 
 const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "Registration",
+      text: "",
     },
     {
       image: ChooseMeals,
-      title: "Choose How Often",
+      title: "Plant Trees",
       text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
     },
     {
       image: DeliveryMeals,
-      title: "Fast Deliveries",
+      title: "Mint NFT of the project and earn.",
       text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
+      <div className="about-background-image-container">
+        <img src={AboutBackground} alt="" />
+      </div>
+      <div className="Work" style={{color: '#0DFEB6', fontSize: 25, fontFamily: 'Montserrat', fontWeight: '700', wordWrap: 'break-word'}}>Work</div>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Regen Is A Web3 Project That Aims At Helping Fast 
+        Track Tree Reforestation Projects While Creating Employment For Youths
         </p>
       </div>
       <div className="work-section-bottom">
