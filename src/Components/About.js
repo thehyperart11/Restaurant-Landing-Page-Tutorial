@@ -18,13 +18,8 @@ const About = () => {
           Food Is An Important Part Of A Balanced Diet
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
-        </p>
-        <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
-        </p>
+        Découvrez FAKYATI une  délicieuse combinaison de fruits secs premium, soigneusement sélectionnés par les producteurs experts Hicham et Yassine. Notre mélange exquis comprend des amandes croquantes, des raisins secs sucrés, du maïs savoureux, des acajous fondants et des noix riches en saveur. Offrez-vous une expérience gustative unique avec chaque bouchée, et soutenez les talents exceptionnels de Hicham et Yassine en optant pour notre produit de qualité supérieure.        </p>
+      
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
           <button className="watch-video-button">
